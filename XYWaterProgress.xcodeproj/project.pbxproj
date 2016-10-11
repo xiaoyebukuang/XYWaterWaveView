@@ -1,0 +1,437 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3D7543CC1C48E44D0006B0AB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D7543CB1C48E44D0006B0AB /* main.m */; };
+		3D7543CF1C48E44D0006B0AB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D7543CE1C48E44D0006B0AB /* AppDelegate.m */; };
+		3D7543D21C48E44D0006B0AB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D7543D11C48E44D0006B0AB /* ViewController.m */; };
+		3D7543D51C48E44D0006B0AB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D7543D31C48E44D0006B0AB /* Main.storyboard */; };
+		3D7543D71C48E44D0006B0AB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D7543D61C48E44D0006B0AB /* Images.xcassets */; };
+		3D7543DA1C48E44D0006B0AB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D7543D81C48E44D0006B0AB /* LaunchScreen.xib */; };
+		3D7543E61C48E44D0006B0AB /* XYWaterProgressTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D7543E51C48E44D0006B0AB /* XYWaterProgressTests.m */; };
+		3D7543F11C48E4D50006B0AB /* XYWaterWaveView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D7543F01C48E4D50006B0AB /* XYWaterWaveView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3D7543E01C48E44D0006B0AB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3D7543BE1C48E44D0006B0AB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3D7543C51C48E44D0006B0AB;
+			remoteInfo = XYWaterProgress;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3D7543C61C48E44D0006B0AB /* XYWaterProgress.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XYWaterProgress.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D7543CA1C48E44D0006B0AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D7543CB1C48E44D0006B0AB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3D7543CD1C48E44D0006B0AB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3D7543CE1C48E44D0006B0AB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3D7543D01C48E44D0006B0AB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3D7543D11C48E44D0006B0AB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3D7543D41C48E44D0006B0AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3D7543D61C48E44D0006B0AB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		3D7543D91C48E44D0006B0AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		3D7543DF1C48E44D0006B0AB /* XYWaterProgressTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XYWaterProgressTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D7543E41C48E44D0006B0AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D7543E51C48E44D0006B0AB /* XYWaterProgressTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XYWaterProgressTests.m; sourceTree = "<group>"; };
+		3D7543EF1C48E4D50006B0AB /* XYWaterWaveView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYWaterWaveView.h; sourceTree = "<group>"; };
+		3D7543F01C48E4D50006B0AB /* XYWaterWaveView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYWaterWaveView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3D7543C31C48E44D0006B0AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D7543DC1C48E44D0006B0AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3D7543BD1C48E44D0006B0AB = {
+			isa = PBXGroup;
+			children = (
+				3D7543C81C48E44D0006B0AB /* XYWaterProgress */,
+				3D7543E21C48E44D0006B0AB /* XYWaterProgressTests */,
+				3D7543C71C48E44D0006B0AB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3D7543C71C48E44D0006B0AB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3D7543C61C48E44D0006B0AB /* XYWaterProgress.app */,
+				3D7543DF1C48E44D0006B0AB /* XYWaterProgressTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3D7543C81C48E44D0006B0AB /* XYWaterProgress */ = {
+			isa = PBXGroup;
+			children = (
+				3D7543CD1C48E44D0006B0AB /* AppDelegate.h */,
+				3D7543CE1C48E44D0006B0AB /* AppDelegate.m */,
+				3D7543D01C48E44D0006B0AB /* ViewController.h */,
+				3D7543D11C48E44D0006B0AB /* ViewController.m */,
+				3D7543EF1C48E4D50006B0AB /* XYWaterWaveView.h */,
+				3D7543F01C48E4D50006B0AB /* XYWaterWaveView.m */,
+				3D7543D31C48E44D0006B0AB /* Main.storyboard */,
+				3D7543D61C48E44D0006B0AB /* Images.xcassets */,
+				3D7543D81C48E44D0006B0AB /* LaunchScreen.xib */,
+				3D7543C91C48E44D0006B0AB /* Supporting Files */,
+			);
+			path = XYWaterProgress;
+			sourceTree = "<group>";
+		};
+		3D7543C91C48E44D0006B0AB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3D7543CA1C48E44D0006B0AB /* Info.plist */,
+				3D7543CB1C48E44D0006B0AB /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3D7543E21C48E44D0006B0AB /* XYWaterProgressTests */ = {
+			isa = PBXGroup;
+			children = (
+				3D7543E51C48E44D0006B0AB /* XYWaterProgressTests.m */,
+				3D7543E31C48E44D0006B0AB /* Supporting Files */,
+			);
+			path = XYWaterProgressTests;
+			sourceTree = "<group>";
+		};
+		3D7543E31C48E44D0006B0AB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3D7543E41C48E44D0006B0AB /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3D7543C51C48E44D0006B0AB /* XYWaterProgress */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D7543E91C48E44D0006B0AB /* Build configuration list for PBXNativeTarget "XYWaterProgress" */;
+			buildPhases = (
+				3D7543C21C48E44D0006B0AB /* Sources */,
+				3D7543C31C48E44D0006B0AB /* Frameworks */,
+				3D7543C41C48E44D0006B0AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XYWaterProgress;
+			productName = XYWaterProgress;
+			productReference = 3D7543C61C48E44D0006B0AB /* XYWaterProgress.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3D7543DE1C48E44D0006B0AB /* XYWaterProgressTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D7543EC1C48E44D0006B0AB /* Build configuration list for PBXNativeTarget "XYWaterProgressTests" */;
+			buildPhases = (
+				3D7543DB1C48E44D0006B0AB /* Sources */,
+				3D7543DC1C48E44D0006B0AB /* Frameworks */,
+				3D7543DD1C48E44D0006B0AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3D7543E11C48E44D0006B0AB /* PBXTargetDependency */,
+			);
+			name = XYWaterProgressTests;
+			productName = XYWaterProgressTests;
+			productReference = 3D7543DF1C48E44D0006B0AB /* XYWaterProgressTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3D7543BE1C48E44D0006B0AB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = cyp;
+				TargetAttributes = {
+					3D7543C51C48E44D0006B0AB = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					3D7543DE1C48E44D0006B0AB = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 3D7543C51C48E44D0006B0AB;
+					};
+				};
+			};
+			buildConfigurationList = 3D7543C11C48E44D0006B0AB /* Build configuration list for PBXProject "XYWaterProgress" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3D7543BD1C48E44D0006B0AB;
+			productRefGroup = 3D7543C71C48E44D0006B0AB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3D7543C51C48E44D0006B0AB /* XYWaterProgress */,
+				3D7543DE1C48E44D0006B0AB /* XYWaterProgressTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3D7543C41C48E44D0006B0AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D7543D51C48E44D0006B0AB /* Main.storyboard in Resources */,
+				3D7543DA1C48E44D0006B0AB /* LaunchScreen.xib in Resources */,
+				3D7543D71C48E44D0006B0AB /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D7543DD1C48E44D0006B0AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3D7543C21C48E44D0006B0AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D7543D21C48E44D0006B0AB /* ViewController.m in Sources */,
+				3D7543CF1C48E44D0006B0AB /* AppDelegate.m in Sources */,
+				3D7543F11C48E4D50006B0AB /* XYWaterWaveView.m in Sources */,
+				3D7543CC1C48E44D0006B0AB /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D7543DB1C48E44D0006B0AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D7543E61C48E44D0006B0AB /* XYWaterProgressTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3D7543E11C48E44D0006B0AB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3D7543C51C48E44D0006B0AB /* XYWaterProgress */;
+			targetProxy = 3D7543E01C48E44D0006B0AB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3D7543D31C48E44D0006B0AB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D7543D41C48E44D0006B0AB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3D7543D81C48E44D0006B0AB /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D7543D91C48E44D0006B0AB /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3D7543E71C48E44D0006B0AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3D7543E81C48E44D0006B0AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3D7543EA1C48E44D0006B0AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = XYWaterProgress/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3D7543EB1C48E44D0006B0AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = XYWaterProgress/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3D7543ED1C48E44D0006B0AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = XYWaterProgressTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XYWaterProgress.app/XYWaterProgress";
+			};
+			name = Debug;
+		};
+		3D7543EE1C48E44D0006B0AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = XYWaterProgressTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XYWaterProgress.app/XYWaterProgress";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3D7543C11C48E44D0006B0AB /* Build configuration list for PBXProject "XYWaterProgress" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D7543E71C48E44D0006B0AB /* Debug */,
+				3D7543E81C48E44D0006B0AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D7543E91C48E44D0006B0AB /* Build configuration list for PBXNativeTarget "XYWaterProgress" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D7543EA1C48E44D0006B0AB /* Debug */,
+				3D7543EB1C48E44D0006B0AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3D7543EC1C48E44D0006B0AB /* Build configuration list for PBXNativeTarget "XYWaterProgressTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D7543ED1C48E44D0006B0AB /* Debug */,
+				3D7543EE1C48E44D0006B0AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3D7543BE1C48E44D0006B0AB /* Project object */;
+}
